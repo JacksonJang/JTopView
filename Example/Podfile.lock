@@ -1,0 +1,16 @@
+PODS:
+  - JTopView (0.1.0)
+
+DEPENDENCIES:
+  - JTopView (from `../`)
+
+EXTERNAL SOURCES:
+  JTopView:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  JTopView: d001e317f89ace06ab195f352a29dd79efe8d929
+
+PODFILE CHECKSUM: b445000e1feddb4120a6aee5cb540cf62cbb60c2
+
+COCOAPODS: 1.11.2

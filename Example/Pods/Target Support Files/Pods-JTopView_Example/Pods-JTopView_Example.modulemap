@@ -1,0 +1,6 @@
+framework module Pods_JTopView_Example {
+  umbrella header "Pods-JTopView_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,6 @@
+framework module Pods_JTopView_Tests {
+  umbrella header "Pods-JTopView_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

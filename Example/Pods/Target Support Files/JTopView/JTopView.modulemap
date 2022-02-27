@@ -1,0 +1,6 @@
+framework module JTopView {
+  umbrella header "JTopView-umbrella.h"
+
+  export *
+  module * { export * }
+}
