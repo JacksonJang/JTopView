@@ -28,9 +28,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0D298623692D0F433D4D7971 /* JTopView.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = JTopView.podspec; path = ../JTopView.podspec; sourceTree = "<group>"; };
+		0D298623692D0F433D4D7971 /* JTopView.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = JTopView.podspec; path = ../JTopView.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		21347B05A8897A0BC3FB0FC7 /* Pods-JTopView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JTopView_Tests.release.xcconfig"; path = "Target Support Files/Pods-JTopView_Tests/Pods-JTopView_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		2D093DEDC77FE25E9CE30A04 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		2D093DEDC77FE25E9CE30A04 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* JTopView_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JTopView_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -45,7 +45,7 @@
 		AF8C9226F08260A0ACE7F831 /* Pods_JTopView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JTopView_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C77F33691A9A8D5C95340F7C /* Pods-JTopView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JTopView_Example.release.xcconfig"; path = "Target Support Files/Pods-JTopView_Example/Pods-JTopView_Example.release.xcconfig"; sourceTree = "<group>"; };
 		CC48A01277BCC54EA71D7A8D /* Pods-JTopView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JTopView_Tests.debug.xcconfig"; path = "Target Support Files/Pods-JTopView_Tests/Pods-JTopView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		F57D87EF72486DFA1654A82B /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		F57D87EF72486DFA1654A82B /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		F9CC89AA2724B6A529027E21 /* Pods_JTopView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JTopView_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -77,7 +77,6 @@
 				CC48A01277BCC54EA71D7A8D /* Pods-JTopView_Tests.debug.xcconfig */,
 				21347B05A8897A0BC3FB0FC7 /* Pods-JTopView_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -227,6 +226,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);

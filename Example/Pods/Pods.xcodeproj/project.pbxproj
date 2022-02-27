@@ -11,12 +11,12 @@
 		486F0C5639A9D60861189E2325238557 /* Pods-JTopView_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 87FAB8F44FC556C64DC77E6D53268D31 /* Pods-JTopView_Example-dummy.m */; };
 		5F470A0F1DFD7903098B18E1CDC5A823 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		6B9B3E581FCA14F46FC133B65CFFE20D /* JTopView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2ED1E00FB9FCA16FA77511549CDDE5BC /* JTopView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		828CA56BD1BD91387C077CA96DCE23D7 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C18128FEDBF66BF1C0DA6B1BB85EE7A /* ReplaceMe.swift */; };
 		9363BC313435619C73F4D4DC363AF7FF /* Pods-JTopView_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 979062AF2AA19DF92F321DFEB347D01F /* Pods-JTopView_Tests-dummy.m */; };
 		B8D7F8E28DB329C43889C6FF78021F13 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		B8F6866200551952AFFD066F9C4851FF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		BDBD89367ADA29F72A68890B42D01E10 /* Pods-JTopView_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D872A10673557D67BAE35431C516FC20 /* Pods-JTopView_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D8D7A1988AA288940DEF72D39F075968 /* JTopView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5307EFE81DA9C641A76AE42B92A9A0D1 /* JTopView-dummy.m */; };
+		E2FC41CA27CB4E2A00BC2499 /* JTopView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2FC41C927CB4E2A00BC2499 /* JTopView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,7 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0362F6A44F84E34057555B0CC2174A86 /* JTopView */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = JTopView; path = JTopView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0362F6A44F84E34057555B0CC2174A86 /* JTopView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = JTopView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		07A10BC1523C4FCFD6F99A9B816C4434 /* Pods-JTopView_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-JTopView_Tests"; path = Pods_JTopView_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1BE8C4A8360D3C3CDB2A108387F34F6E /* Pods-JTopView_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JTopView_Tests-Info.plist"; sourceTree = "<group>"; };
 		1CC0FCBF68100C4A908BD4BEEACA8140 /* JTopView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JTopView.release.xcconfig; sourceTree = "<group>"; };
@@ -50,24 +50,24 @@
 		500CDA74FEACCEC51E15649616FA76CE /* Pods-JTopView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JTopView_Example.release.xcconfig"; sourceTree = "<group>"; };
 		510BE994449CD15416095FCB6F84712D /* Pods-JTopView_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JTopView_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		5307EFE81DA9C641A76AE42B92A9A0D1 /* JTopView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "JTopView-dummy.m"; sourceTree = "<group>"; };
-		5785E23481FCEA5DAB34872758162F02 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		5785E23481FCEA5DAB34872758162F02 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		7C18128FEDBF66BF1C0DA6B1BB85EE7A /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = JTopView/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
-		7F3553BFE38C60C3ADD0A4D433FBE092 /* JTopView.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = JTopView.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		7F3553BFE38C60C3ADD0A4D433FBE092 /* JTopView.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = JTopView.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		87FAB8F44FC556C64DC77E6D53268D31 /* Pods-JTopView_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-JTopView_Example-dummy.m"; sourceTree = "<group>"; };
 		8A24ED1562F00D114A22D044AEDDFAFC /* Pods-JTopView_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-JTopView_Tests-umbrella.h"; sourceTree = "<group>"; };
 		8B229B27AF4990BC1D7A28FE1DAACFC4 /* Pods-JTopView_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JTopView_Example-frameworks.sh"; sourceTree = "<group>"; };
 		8E6A56761D5CDF30ADA73F8F96DED98E /* Pods-JTopView_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JTopView_Example-Info.plist"; sourceTree = "<group>"; };
 		979062AF2AA19DF92F321DFEB347D01F /* Pods-JTopView_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-JTopView_Tests-dummy.m"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A08CBAA035112B43095EFB6A83B66E8C /* Pods-JTopView_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-JTopView_Example.modulemap"; sourceTree = "<group>"; };
 		A227C05BB8731C32CBAE1771760B48A3 /* Pods-JTopView_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-JTopView_Example"; path = Pods_JTopView_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A4AF451958E1520FCAE005D77BB4C84B /* Pods-JTopView_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-JTopView_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		A782BC9C96AFA21E43B265C98A430D1D /* JTopView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JTopView.debug.xcconfig; sourceTree = "<group>"; };
 		C6854C155C9CCA7BF6BEB6A153456E30 /* Pods-JTopView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JTopView_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		CA0D7F570218EF55E19F4AFA0C2A5E4B /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		CA0D7F570218EF55E19F4AFA0C2A5E4B /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		CBF4CCE56B79B42054585462DFEEDB2A /* Pods-JTopView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JTopView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		D872A10673557D67BAE35431C516FC20 /* Pods-JTopView_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-JTopView_Example-umbrella.h"; sourceTree = "<group>"; };
+		E2FC41C927CB4E2A00BC2499 /* JTopView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JTopView.swift; sourceTree = "<group>"; };
 		F44E3BFB67C308D2E3E7A1A417ADCB8E /* Pods-JTopView_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-JTopView_Tests.modulemap"; sourceTree = "<group>"; };
 		FC2480A0EEFBBBFE585F031226F5103D /* JTopView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = JTopView.modulemap; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -146,7 +146,7 @@
 		60AC6326991B1DE23193AD6B301CF82E /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				0362F6A44F84E34057555B0CC2174A86 /* JTopView */,
+				0362F6A44F84E34057555B0CC2174A86 /* JTopView.framework */,
 				A227C05BB8731C32CBAE1771760B48A3 /* Pods-JTopView_Example */,
 				07A10BC1523C4FCFD6F99A9B816C4434 /* Pods-JTopView_Tests */,
 			);
@@ -156,7 +156,7 @@
 		9927DAAC1B87EB29BB252567BB3CD2FF /* JTopView */ = {
 			isa = PBXGroup;
 			children = (
-				7C18128FEDBF66BF1C0DA6B1BB85EE7A /* ReplaceMe.swift */,
+				E2FC41C827CB4E1D00BC2499 /* Sources */,
 				103EAEEAEB283652F339EE95263886DF /* Pod */,
 				BB447DC0F83078D519424002818F1705 /* Support Files */,
 			);
@@ -204,6 +204,14 @@
 				578452D2E740E91742655AC8F1636D1F /* iOS */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E2FC41C827CB4E1D00BC2499 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				E2FC41C927CB4E2A00BC2499 /* JTopView.swift */,
+			);
+			path = Sources;
 			sourceTree = "<group>";
 		};
 		EFB55E3386396552B6006BB458C29F9E /* Pods-JTopView_Example */ = {
@@ -287,7 +295,7 @@
 			);
 			name = JTopView;
 			productName = JTopView;
-			productReference = 0362F6A44F84E34057555B0CC2174A86 /* JTopView */;
+			productReference = 0362F6A44F84E34057555B0CC2174A86 /* JTopView.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		ADFB7233CFDA1A88CB267F167329EDB9 /* Pods-JTopView_Example */ = {
@@ -317,6 +325,11 @@
 			attributes = {
 				LastSwiftUpdateCheck = 1240;
 				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					ADF199AADC88EE210C028E9AB40FE0FA = {
+						LastSwiftMigration = 1320;
+					};
+				};
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -384,7 +397,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D8D7A1988AA288940DEF72D39F075968 /* JTopView-dummy.m in Sources */,
-				828CA56BD1BD91387C077CA96DCE23D7 /* ReplaceMe.swift in Sources */,
+				E2FC41CA27CB4E2A00BC2499 /* JTopView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -541,6 +554,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = A782BC9C96AFA21E43B265C98A430D1D /* JTopView.debug.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
@@ -560,6 +574,7 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
@@ -571,6 +586,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 1CC0FCBF68100C4A908BD4BEEACA8140 /* JTopView.release.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
@@ -653,8 +669,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
